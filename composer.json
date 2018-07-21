@@ -1,0 +1,21 @@
+{
+    "name": "muhammadkhon/example-composer-package",
+    "description": "Example project",
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Muhammadkhon Turakhonov",
+            "email": "muhammadkhon@bk.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "muhammadkhon\\parser\\": "src/"
+        },
+    },
+    "minimum-stability": "stable"
+}
