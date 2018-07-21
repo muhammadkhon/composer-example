@@ -22,6 +22,8 @@ class Parser implements ParserInterface
         if (empty($string[1])) {
             return ['There are no such tags on the page'];
         }
+        
+        // Return result array
 
         return $string[1];
     }
