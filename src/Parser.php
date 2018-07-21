@@ -15,7 +15,7 @@ class Parser implements ParserInterface
             return ['Invalid URL'];
         }
 
-        preg_match_all('/<'.$tag.'.*?>(.?)<\/'.$tag.'>/s', $htmlpPage, $string);
+        preg_match_all('/<'.$tag.'.*?>(.*?)<\/'.$tag.'>/s', $htmlpPage, $string);
 
         if (empty($string[1])) {
             return ['There are no such tags on the page'];
