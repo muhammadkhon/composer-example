@@ -15,7 +15,7 @@
     "autoload": {
         "psr-4": {
             "muhammadkhon\\parser\\": "src/"
-        },
+        }
     },
     "minimum-stability": "stable"
 }
